@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+display: flex;
+justify-content: space-around;
+border: 1px #661A1A;
+background-color: #E63939;
+height: 80px;
+align-items: center;
+}
+#pesquisa{
+    border: 1px #661A1A;
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 10px;
+}
+#bt_pesquisar{
+    
+    height: 20px;
+    border: 1px #661A1A;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#bt_pesquisar:hover{
+    background-color: #EA8181;
+    border: 2px black;
+}
