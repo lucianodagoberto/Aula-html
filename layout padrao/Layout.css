@@ -26,5 +26,7 @@ align-items: center;
 }
 #bt_pesquisar:hover{
     background-color: #EA8181;
-    border: 2px black;
+}
+#config{
+    height: 40px;
 }
