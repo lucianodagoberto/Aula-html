@@ -3,6 +3,12 @@
         <title>Exemplo layout padrão</title>
         <link href="Layout.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+        <style>
+            main{
+                 display: grid;
+                 grid-template-columns: 535px 535px 535px;
+                }
+        </style>
     </head>
     <body>
             <header>
@@ -14,25 +20,16 @@
                     </form>
                 </div>
                 <div>
-                    <input id="config" type="file" placeholder="Configurações">
+                    <input id="config" type="hidden" placeholder="Configurações">
                     <span class="material-symbols-outlined">
-                    settings
+                     settings   
                     </span></div>
             </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <main>
+                <div class="caixa"> <h3>Nossa História</h3>O Manchester United Football Club é um clube inglês, sediado em Trafford, na região metropolitana de Manchester, sendo um dos times mais populares e mais bem sucedidos da Inglaterra e do mundo. É conhecido como "Diabos Vermelhos", bem como por abreviações de seu nome, como Manchester Utd, Man United, Man Utd e United.</div>
+                <div class="caixa"> <h3>Títulos</h3> <p> United - 66 títulos</p>Os Diabos Vermelhos conquistaram dois Mundiais, três Champions, uma Liga Europa, uma Recopa Europeia, uma Supercopa da Uefa, 20 Campeonatos Ingleses, 12 Copas da Inglaterra, 5 Copas da Liga Inglesa e 21 Supercopas da Inglaterra</div>
+                <div class="caixa"> <h3>Nossa Casa</h3>O nossa estádio é o Old Trafford, apelidado de Teatro dos Sonhos por Sir Bobby Charlton, é o segundo maior da Inglaterra e o maior estádio particular de toda a Grã-Bretanha.[50] Após as obras de modernização, o estádio teve sua capacidade aumentada para cerca de 76 000 espectadores.[51] Famoso pela sua média de público de 75, 76 mil torcedores por jogo, o Manchester praticamente não vende bilhetes para os jogos no Old Trafford, sendo estes comprados basicamente no início da temporada pelos sócios mais antigos, sendo que o clube possui cerca de 150.000 sócios e existem filas de 4 anos entre eles só para poderem adquirir um season ticket (o ingresso válido para uma temporada inteira), que pode rondar a quantia de 2 000 euros.</div>
+            </main>
 
 
     </body>
