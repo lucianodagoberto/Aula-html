@@ -3,12 +3,23 @@ body {
   padding: 0;
   font-size: 14px;
   color: #919191;
-  background-color: #232323;
+  background-color: #FFF;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("transito.jpg");
-
 }
-
+.banner{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner video {
+  position: static;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+}
 div#topo {
   width: 100%;
   height: auto;
@@ -37,6 +48,7 @@ h6 {
   margin: 0 0 0 0;
   font-size: 1.5em;
   font-weight: normal;
+  color: #000;
 }
 
 #grupo h1 {
@@ -62,8 +74,8 @@ header #header-contato li:first-child {
 
 #topo,
 #topo a {
-  color: #C0BAB6;
-  background-color: #333333;
+  color: #000;
+  background-color: #D2D63A;
   text-decoration: none;
 }
 
@@ -72,7 +84,7 @@ span.material-icons {
 }
 
 a {
-  color: #FF9900;
+  color: #D2D63A;;
   text-decoration: none;
 }
 
@@ -109,7 +121,7 @@ nav a:hover {
 
 main {
   width: 980px;
-  height: 350px;
+ 
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -129,11 +141,12 @@ main {
   border: 1px solid#CCC;
   border-radius: 20px;
   padding: 10px;
-  background-color: #232323;
+  background-color: #4A6571;
 }
 
 .sectionMain h1 {
   text-align: center;
+  color: #FFF;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -141,6 +154,7 @@ main {
 .sectionMain p {
   line-height: 20px;
   text-align: justify;
+  color: #FFF;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 
@@ -171,52 +185,54 @@ a.botao {
 }
 
 .botao.saiba_mais_caminhoes {
-  background: linear-gradient(to right, #dae670, #ddec0c);
+  background: linear-gradient(to right, #D2D63A, #D2D63A);
   text-shadow: 1px 1px 0 #000;
-  border-color: #ddec0c;
+  border-color: #D2D63A;
 }
 
 .botao.saiba_mais_caminhoes:hover {
-  color: #ddec0c;
-  border-color: #ddec0c;
+  color: #D2D63A;
+  border-color: #D2D63A;
 }
 
 .botao.saiba_mais_rastreamento {
-  background: linear-gradient(to right, #65cee9, #2f42aa);
+  background: linear-gradient(to right, #D2D63A, #D2D63A);
   text-shadow: 1px 1px 0 #000;
-  border-color: #2f42aa;
+  border-color: #D2D63A;
 }
 
 .botao.saiba_mais_rastreamento:hover {
-  color: #2f42aa;
-  border-color: #2f42aa;
+  color: #D2D63A;
+  border-color: #D2D63A;
 }
 
 .botao.saiba_mais_smartphone {
-  background: linear-gradient(to right, #e08879, #d6230b);
+  background: linear-gradient(to right, #D2D63A, #D2D63A);
   text-shadow: 1px 1px 0 #000;
-  border-color: #d6230b;
+  border-color: #D2D63A;
 }
 
 .botao.saiba_mais_smartphone:hover {
-  color: #d6230b;
-  border-color: #d6230b;
+  color: #D2D63A;
+  border-color: #D2D63A;
 }
 
 .botao.saiba_mais_suporte {
-  background: linear-gradient(to right, #e079e0, #8a0574);
+  background: linear-gradient(to right, #D2D63A, #D2D63A);
   text-shadow: 1px 1px 0 #000;
-  border-color: #8a0574;
+  border-color: #D2D63A;
 }
 
 .botao.saiba_mais_suporte:hover {
-  color: #8a0574;
-  border-color: #8a0574;
+  color: #D2D63A;
+  border-color: #D2D63A;
 }
 
 #sectionClient {
   width: 100%;
   height: 400px;
+  display: inline-flexbox;
+  
  
 }
 
@@ -230,8 +246,8 @@ a.botao {
 }
 
 #contentClient {
-  height: 220px;
-  width: 900px;
+  height: 300px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -246,7 +262,6 @@ a.botao {
   border-radius: 10px;
   margin: 20px;
   display: grid;
-  grid-template-rows: auto;
 
 }
 
@@ -273,21 +288,23 @@ a.botao {
   font-weight: bold;
   text-align: right;
 }
-
-
-
-
-#contentClient article {
-  background-color: rgb(112, 112, 112);
-  border-radius: 10px;
-  color: #000;
+#quemSomos h1{
+  margin-top: 20px;
   text-align: center;
+}
+
+
+
+#quemSomos article {
+  background-color: #FFF;
+  color: #000;
+  text-align: left;
 }
 
 #containnerRodape {
   width: 100%;
   height: 350px;
-  background-color: #000;
+  background-color: #4A6571;
 
 }
 
@@ -304,19 +321,23 @@ a.botao {
   width: 300px;
   height: 300px;
   float: left;
+  align-items: center;
   margin: 10px;
 }
 
 .rodape_title {
   text-align: center;
+  color: #FFF;
 }
 
 #rodape_nav li a {
   display: flex;
+  color: #fff;
 }
 
 #rodape_comentarios li {
   margin-bottom: 15px;
+  color: #FFF;
 }
 
 #caixa_formulario label {
@@ -324,6 +345,10 @@ a.botao {
   align-content: center;
   margin-top: 10px;
   border-radius: 20px;
+  color: #FFF;
+}
+#caixa_formulario form{
+  align-items: center;
 }
 
 #caixa_formulario textarea {
@@ -331,27 +356,28 @@ a.botao {
   height: 100px;
   padding-left: 5px;
   resize: none;
-  color: #FFF;
-  background-color: #333333;
+  color: #000;
+  background-color: #FFF;
   border: 1px solid #666666;
 }
 
 #caixa_formulario input {
   border-radius: 5px;
-  padding-left: 5px;
-  color: #FFF;
-  background-color: #333333;
+  padding-right: 5px;
+  color: #000;
+  background-color: #FFF;
   border: 1px solid #666666;
+  align-items: center;
 }
 
 #botoes {
-  display: flex;
+  display: block;
   margin-top: 10px;
 }
 
 #caixa_formulario input[type=submit],
 #caixa_formulario input[type=reset] {
-  background-color: #FF9900;
+  background-color: #D2D63A;
   margin-left: 10px;
   cursor: pointer;
   color: #232323;
@@ -366,6 +392,7 @@ a.botao {
 }
 #rodape_nav li a{
   padding: 5px 0  ;
+  color: #D2D63A;
 }
 
 
@@ -568,4 +595,8 @@ a.botao {
     transform: translateZ(0);
     opacity: 1;
   }
+}
+#video {
+  width: auto;
+  height: auto;
 }
